@@ -1,5 +1,4 @@
 # 아나콘다 설치
-&nbsp;
 ```zsh
 # 아나콘다 아카이브에 접속해 설치할 버전 확인 (https://repo.anaconda.com/archive/)
 
