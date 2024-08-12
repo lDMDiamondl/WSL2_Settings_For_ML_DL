@@ -45,7 +45,7 @@ python -m pip install --upgrade --force-reinstall (whl 파일 이름)
 # OpenCV가 gpu를 인식하는지 확인
 python
 import cv2
-cv2.cuda.getCudaEnabledDeviceCount() # 0이 아닌 숫자가 뜨면 정상적으로 인식된 것
+cv2.cuda.getCudaEnabledDeviceCount() # GPU 개수만큼의 숫자가 뜨면 정상적으로 인식된 것
 
 # 만약 import 과정에서 libstdc++.so.6: version `glibcxx_3.4.30' not found 에러가 발생한다면...
 conda install -c conda-forge gcc=12.1.0
