@@ -18,7 +18,7 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 # https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf
 ```
 
-자세한 커스터마이징에 대해선 아래 영상들을 참고해주세요.
+자세한 커스터마이징에 대해선 아래 영상들을 참고해주세요. (이미지를 클릭하면 영상으로 이동합니다.)
 
 
 [![Video Label](https://img.youtube.com/vi/o2Mji64i2Ms/maxresdefault.jpg)](https://www.youtube.com/watch?v=o2Mji64i2Ms)
