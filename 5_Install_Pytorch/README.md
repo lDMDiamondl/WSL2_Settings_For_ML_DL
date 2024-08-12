@@ -1,5 +1,5 @@
 # 파이토치 설치
-
+&nbsp;
 ```zsh
 conda install pytorch torchvision torchaudio pytorch-cuda=(쿠다 버전) -c pytorch -c nvidia
 
