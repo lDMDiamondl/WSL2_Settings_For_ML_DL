@@ -40,9 +40,7 @@ ENABLE_CONTRIB=1 python setup.py bdist_wheel -- \
 	-DCUDA_ARCH_BIN=(구글링한 compute capability로 변경) -- \
 	-j $(nproc)
 	
-# 빌드가 끝나면 whl 파일을 실행해 OpenCV 설치
-# 본인이 같은 파이썬 버전을 계속 사용할 거면 whl 파일을 백업해뒀다가
-# 다시 세팅할 일 있으면 그 whl 파일로 바로 설치하는 것도 좋음
+# 빌드가 끝나면 whl 파일을 실행해 OpenCV 설치, 본인이 같은 파이썬 버전을 계속 사용할 거면 whl 파일을 백업해뒀다가 다시 세팅할 일 있으면 그 whl 파일로 바로 설치하는 것도 좋음
 cd dist
 python -m pip install --upgrade --force-reinstall (whl 파일 이름)
 
