@@ -14,4 +14,4 @@ ML/DL을 위해 WSL2 개발환경을 설정하는 과정을 정리한 레포지�
 3. [아나콘다 설치](/3_Install_Anaconda3)
 4. [CUDA/CUDNN 설치](/4_Install_CUDA_CUDNN)
 5. [파이토치 설치](/5_Install_Pytorch)
-6. [OpenCV with GPU 설치](/6_Install_OpenCV_GPU)
+6. [아나콘다 가상환경에 OpenCV with GPU 설치](/6_Install_OpenCV_GPU)
