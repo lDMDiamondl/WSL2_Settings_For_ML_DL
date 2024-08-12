@@ -44,7 +44,7 @@ ENABLE_CONTRIB=1 python setup.py bdist_wheel -- \
 cd dist
 python -m pip install --upgrade --force-reinstall (whl 파일 이름)
 
-# OpenCV가 gpu를 인식하는지 확인
+# OpenCV가 GPU를 인식하는지 확인
 python
 import cv2
 cv2.cuda.getCudaEnabledDeviceCount() # GPU 개수만큼의 숫자가 뜨면 정상적으로 인식된 것
