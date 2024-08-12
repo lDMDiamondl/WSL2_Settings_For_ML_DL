@@ -57,3 +57,11 @@ function _switch_cuda {
 # CUDA 버전 바꾸기
 _switch_cuda (버전 숫자)
 ```
+
+# 주의사항
+1. nvidia-smi을 통해 보여지는 CUDA 버전은 설치된 CUDA 버전이 아닌 현재 환경에 가장 적합한 CUDA 버전을 추천하는 것입니다.
+2. ```zsh
+   Command 'nvcc' not found, but can be installed with:
+   sudo apt install nvidia-cuda-toolkit
+   ```
+   이러한 에러가 발생했을 때 nvidia-cuda-toolkit을 설치하는 것은 딱히 도움이 되지 않습니다.
