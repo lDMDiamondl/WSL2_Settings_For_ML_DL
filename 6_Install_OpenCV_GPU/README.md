@@ -17,8 +17,7 @@ sudo apt-get install python3-dev python3-numpy
 sudo apt install unzip
 
 # NVIDIA VIDEO CODEC SDK 설치
-# https://developer.nvidia.com/nvidia-video-codec-sdk/download에서
-# 다운한 폴더를 home 디렉토리로 옮긴 뒤, 폴더 디렉토리로 들어가 cuda에 복사
+# https://developer.nvidia.com/nvidia-video-codec-sdk/download에서 다운로드한 폴더를 home 디렉토리로 옮긴 뒤, 폴더 디렉토리로 들어가 cuda에 복사
 # 주의) 파일 탐색기를 이용해 파일을 옮길 수 없으므로 명령어를 반드시 사용할 것!!
 sudo cp -rf * /usr/local/cuda/include
 
@@ -48,7 +47,6 @@ python
 import cv2
 cv2.cuda.getCudaEnabledDeviceCount() # 0이 아닌 숫자가 뜨면 정상적으로 인식된 것
 
-# 만약 import 과정에서 libstdc++.so.6: version `glibcxx_3.4.30' not found
-# 에러가 발생한다면...
+# 만약 import 과정에서 libstdc++.so.6: version `glibcxx_3.4.30' not found 에러가 발생한다면...
 conda install -c conda-forge gcc=12.1.0
 ```
