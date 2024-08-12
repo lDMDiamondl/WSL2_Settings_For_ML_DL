@@ -1,5 +1,5 @@
 # zsh 설치 및 커스터마이징
-&nbsp;
+
 ```zsh
 # zsh 설치
 sudo apt-install zsh
