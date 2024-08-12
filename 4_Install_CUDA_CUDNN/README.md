@@ -1,5 +1,4 @@
 # CUDA 11.8, CUDNN 설치 후 적용
-&nbsp;
 ```zsh
 # 다운로드 후 실행
 wget https://developer.download.nvidia.com/compute/cuda/11.8.0/local_installers/cuda_11.8.0_520.61.05_linux.run
