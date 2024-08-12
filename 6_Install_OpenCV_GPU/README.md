@@ -23,6 +23,7 @@ sudo cp -rf * /usr/local/cuda/include
 
 # <아나콘다_설치_경로>/envs/<가상환경_이름>/lib/python<버전>/site-packages/로 이동
 git clone --recursive https://github.com/opencv/opencv-python.git
+cd opencv-python
 
 # (그래픽 카드 이름) compute capability를 구글링해서 찾을 것 (필자의 경우 8.9)
 # 빌드에 시간이 조금 걸림
@@ -49,4 +50,6 @@ cv2.cuda.getCudaEnabledDeviceCount() # 0이 아닌 숫자가 뜨면 정상적으
 
 # 만약 import 과정에서 libstdc++.so.6: version `glibcxx_3.4.30' not found 에러가 발생한다면...
 conda install -c conda-forge gcc=12.1.0
+
+# clone한 파일의 크기가 약 7기가로 용량이 크기 때문에 OpenCV의 설치가 완료되었다면 opencv-python 폴더를 삭제하는 것이 좋습니다.
 ```
