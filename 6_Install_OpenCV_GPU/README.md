@@ -33,7 +33,7 @@ ENABLE_CONTRIB=1 python setup.py bdist_wheel -- \
 	-DENABLE_FAST_MATH=1 \
 	-DCUDA_FAST_MATH=1 \
 	-DWITH_CUBLAS=1 \
-	-DCUDA_ARCH_BIN=<구글링한 compute capability로 변경> -- \
+	-DCUDA_ARCH_BIN=(구글링한 compute capability로 변경) -- \
 	-j $(nproc)
 	
 # 빌드가 끝나면 whl 파일을 실행해 OpenCV 설치
