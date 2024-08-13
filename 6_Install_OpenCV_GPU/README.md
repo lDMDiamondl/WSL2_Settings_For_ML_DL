@@ -20,6 +20,7 @@ sudo apt-get install libgtk-3-dev
 sudo apt-get install libatlas-base-dev gfortran libeigen3-dev
 sudo apt-get install python3-dev python3-numpy
 sudo apt install unzip
+pip3 install scikit-learn
 
 # NVIDIA VIDEO CODEC SDK 설치
 # https://developer.nvidia.com/nvidia-video-codec-sdk/download에서 다운로드한 폴더를 home 디렉토리로 옮긴 뒤, 폴더 디렉토리로 들어가 cuda에 복사
